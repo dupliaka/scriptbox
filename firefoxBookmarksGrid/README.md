@@ -2,12 +2,12 @@
 
 ![demo](https://github.com/dupliaka/scriptbox/blob/main/firefoxBookmarksGrid/demos/demo_main.png)
 
-There is no such settings like "make button this size".
-However, FF gives you an opportunity to do so with the help of *userchrome*.
+There are no such settings like "make button this size".
+However, FF allows you to do so with the help of *userchrome*.
 
 Problem:
 1. There is no setting to have a multiline bookmarks
-2. There is no setting for size of the bookmarks
+2. There is no setting for the size of the bookmarks
 
 #### tltr
 
@@ -17,7 +17,7 @@ For linux users with FF 74+ just run:
 
 ## userChrome.css 
 
-That is a file that FF scans for browser UI configuration during start up.
+That is a file that FF scans for browser UI configuration during startup.
 
 1. To enable FF to read the configuration from userChrome.css
     
@@ -41,11 +41,7 @@ That is a file that FF scans for browser UI configuration during start up.
     - Go to `Toolbar>Web Developer>Browser Toolbox`
     ![edit_chrome](https://github.com/dupliaka/scriptbox/blob/main/firefoxBookmarksGrid/demos/edit_chrome.gif)
     - Find your element by the inspector.
-    There you can edit & test some css properties in `userChrome.css` at `Style Editor` tab.
+    There you can edit & test some CSS properties in `userChrome.css` at `Style Editor` tab.
     
      
 4. Save changes and restart FF
-
-
-
-
